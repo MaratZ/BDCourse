@@ -15,7 +15,3 @@ def connect_params():
         db[param[0]] = param[1]
 
     return db
-
-
-def INI_DIR():
-    return None
