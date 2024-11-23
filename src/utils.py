@@ -10,7 +10,7 @@ params = connect_params()
 def db_create(database_name: str, params):
     """Создание базы данных и таблиц"""
 
-    conn = psycopg2.connect(dbname="cw3", **params)
+    conn = psycopg2.connect(dbname="postgres", **params)
     conn.autocommit = True
     cur = conn.cursor()
 

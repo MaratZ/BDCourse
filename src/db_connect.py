@@ -1,6 +1,6 @@
 from configparser import ConfigParser
 
-from db_connect import INI_DIR
+from config import INI_DIR
 
 
 def connect_params():

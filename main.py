@@ -14,7 +14,7 @@ def main():
     vacancies_data = HH().load_vacancies()
 
     # Создаем базу данных и таблицы
-    db_create("postgres", params)
+    db_create("cw_3", params)
 
     # Заполняем таблицы требуемой информацией
     db_save_data(employers_data, vacancies_data, "cw_3", params)
